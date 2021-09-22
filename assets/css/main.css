@@ -3315,6 +3315,17 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 400px) {
+			#header {
+				height: 0;
+				line-height: 0;
+			}
+
+				#header h1 {
+					padding: 0;
+				}
+		}
+
 /* Wrapper */
 
 	#wrapper {
@@ -3615,17 +3626,9 @@ input, select, textarea {
 
 		}
 
-		.footer-left {
-			float: left;
-			width: 55%;
-		}
-
-		.footer-right {
-			float: right;
-		}
-
+		
 		.footer-company-name {
-			text-align: right;
+			text-align: center;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3633,12 +3636,7 @@ input, select, textarea {
 			.footer-company-name {
 				text-align: left;
 			}
-			#portfoliotitle {
-				padding: 0;
-			}
-			.infot {
-				padding-top: 0.5em;
-			}
+			
 		}
 
 		
