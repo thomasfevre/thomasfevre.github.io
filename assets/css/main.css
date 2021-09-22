@@ -3628,4 +3628,17 @@ input, select, textarea {
 			text-align: right;
 		}
 
+		@media screen and (max-width: 736px) {
+
+			.footer-company-name {
+				text-align: left;
+			}
+			#portfoliotitle {
+				padding: 0;
+			}
+			.infot {
+				padding-top: 0.5em;
+			}
+		}
+
 		
